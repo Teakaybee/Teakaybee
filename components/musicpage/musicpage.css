@@ -1,0 +1,40 @@
+.musicpage-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem 5rem;
+    gap: 2rem;
+}
+.musicpage-container-title h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.musicpage-album_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+    .musicpage-container {
+        padding: 1rem 3rem;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+    .musicpage-container {
+        padding: 1rem 1rem;
+    }
+    .musicpage-container-title h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .musicpage-container-title {
+        display: flex;
+        justify-content: center;
+    }
+    .musicpage-album_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}

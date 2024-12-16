@@ -1,0 +1,26 @@
+.musiccard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 275px;
+  gap: 1rem;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0) 5px 5px;
+}
+
+.musiccard-image {
+  height: 125px;
+  width: 125px;
+}
+.musiccard-image img {
+  width: 100%;
+  height: 100%;
+}
+.musiccard-title h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: white;
+}
