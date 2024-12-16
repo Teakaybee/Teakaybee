@@ -6,13 +6,12 @@ import Image from "next/image";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import { ConfidentialClientApplication } from "@azure/msal-node";
 
 const ContactPage = () => {
   const [contactform, setcontactform] = useState({
-    name: "Sagar JAin",
-    email: "twinkle@teakaybee.com",
-    message: "test email from website",
+    name: "",
+    email: "",
+    message: "",
   });
   const [isloading, setisloading] = useState(false);
 
@@ -23,7 +22,7 @@ const ContactPage = () => {
       method: "POST",
       body: JSON.stringify({
         emailfrom: contactform.email,
-        emailto: "twinkle@teakaybee.com",
+        emailto: "teakaybee97@gmail.com",
         name: contactform.name,
         message: contactform.message,
       }),
