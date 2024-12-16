@@ -38,7 +38,7 @@ const ContactPage = () => {
     }, 2000);
 
     } else if (response.status === 500) {
-      toast.error("Something Went Wrong! Try Again!");
+      toast.error(response.text);
       setisloading(false);
     }
   };
