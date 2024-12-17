@@ -1,8 +1,11 @@
 
 import nodemailer from "nodemailer";
+import dotenv from "dotenv"
+
 
 export const POST = async (req, res) => {
   const { emailfrom, name, message } = await req.json();
+  dotenv.config();
   const emailto = "teakaybee97@gmail.com";
   const transporter = nodemailer.createTransport({
     service: "gmail",
