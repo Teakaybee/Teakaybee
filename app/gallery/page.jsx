@@ -65,7 +65,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="gallery_container-photo">
+        {/* <div className="gallery_container-photo">
           <div className="gallery__headline">
             <h3>MEDIA & INSIGHTS</h3>
             <Image src={starimage} />
@@ -75,7 +75,7 @@ const Page = () => {
             <div className="gallery_container_gallery-list_item"></div>
             <div className="gallery_container_gallery-list_item"></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

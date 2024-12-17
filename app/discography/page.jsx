@@ -17,18 +17,6 @@ const Page = () => {
     <>
       <Navbar />
       <div className="discography_container">
-        <div className="discography__headline video__container">
-          <h3>Video</h3>
-          <Image src={starimage} />
-        </div>
-        <div className="discography__video_container">
-          <div className="discography__video_item">
-            <Image src={youtube} alt="youtube_logo" />
-          </div>
-          <div className="discography__video_item">
-            <Image src={youtube} alt="youtube_logo" />
-          </div>
-        </div>
         <div className="discography__headline">
           <h3>Music</h3>
           <Image src={starimage} />
@@ -47,6 +35,18 @@ const Page = () => {
             <Image src={youtubemusic} alt="youtubemusic_logo" />
             <Image src={soundcloud} alt="soundcloud_logo" />
             <Image src={saavn} alt="saavn_logo" />
+          </div>
+        </div>
+        <div className="discography__headline video__container">
+          <h3>Video</h3>
+          <Image src={starimage} />
+        </div>
+        <div className="discography__video_container">
+          <div className="discography__video_item">
+            <Image src={youtube} alt="youtube_logo" />
+          </div>
+          <div className="discography__video_item">
+            <Image src={youtube} alt="youtube_logo" />
           </div>
         </div>
       </div>

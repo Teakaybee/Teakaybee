@@ -37,11 +37,13 @@ const Navbar = () => {
           {isgallery && (
             <div className="navbar_links-dropdown_menu">
               <a href="/gallery">Photo/BTS</a>
-              <a href="/gallery">Media</a>
+              <a href="/insights">Media/Insights</a>
             </div>
           )}
         </div>
 
+        {/* <a href="/gallery">Gallery</a>
+        <a href="/insights">MEDIA/INSIGHTS</a> */}
         <a href="/#Contact">Contact</a>
       </div>
       <div className="navbar-links_small-devices">
@@ -56,6 +58,8 @@ const Navbar = () => {
           <div className="navbar-links_small-devices-container">
             <a href="/">Home</a>
             <a href="/discography">Discography</a>
+            {/* <a href="/gallery">Gallery</a>
+            <a href="/insights">MEDIA/INSIGHTS</a> */}
             {/* <div className="navbar-links_small-devices-container-dropdown">
               <div className="navbar-links_small-devices-container-dropdown-title">
                 <p>Discography</p>
@@ -96,12 +100,12 @@ const Navbar = () => {
               {isgallerysmalldevice && (
                 <div className="navbar-links_small-devices-container-dropdown-menu">
                   <a href="gallery">Photo/Bts</a>
-                  <a href="gallery">Insight</a>
+                  <a href="insights">Media/Insights</a>
                 </div>
               )}
             </div>
 
-            <a href="#Contact">Contact</a>
+            <a href="/#Contact">Contact</a>
           </div>
         )}
       </div>
