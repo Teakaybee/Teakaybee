@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 
 export const POST = async (req, res) => {
   const { emailfrom, name, message } = await req.json();
-  const emailto = process.env.EMAIL
+  const emailto = "teakaybee97@gmail.com";
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
